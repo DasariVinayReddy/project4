@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./bootstrap.min.css";
 import "./App.css";
 import images from "./img/carousel-1.jpg";
@@ -84,7 +83,7 @@ function App() {
         <nav className="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
           <a href="index.html" className="navbar-brand p-0">
             <h1 className="m-0 " style={{ color: "green" }}>
-              <img src={image3} style={{ width: "100px" }} />
+              <img src={image3} style={{ width: "100px" }} alt="etc" />
               easyIME
             </h1>
           </a>
@@ -98,39 +97,39 @@ function App() {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0">
-              <a href="#" className="nav-item nav-link active">
+              <a href="!#" className="nav-item nav-link active">
                 Home
               </a>
-              <a href="#" className="nav-item nav-link">
+              <a href="!#" className="nav-item nav-link">
                 About
               </a>
-              <a href="#" className="nav-item nav-link">
+              <a href="!#" className="nav-item nav-link">
                 Service
               </a>
               <div className="nav-item dropdown">
                 <a
-                  href="#"
+                  href="!#"
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                 >
                   Pages
                 </a>
                 <div className="dropdown-menu m-0">
-                  <a href="#" className="dropdown-item">
+                  <a href="!#" className="dropdown-item">
                     Pricing Plan
                   </a>
-                  <a href="#" className="dropdown-item">
+                  <a href="!#" className="dropdown-item">
                     Our Dentist
                   </a>
-                  <a href="#" className="dropdown-item">
+                  <a href="!#" className="dropdown-item">
                     Testimonial
                   </a>
-                  <a href="#" className="dropdown-item">
+                  <a href="!#" className="dropdown-item">
                     Appointment
                   </a>
                 </div>
               </div>
-              <a href="#" className="nav-item nav-link">
+              <a href="!#" className="nav-item nav-link">
                 Contact
               </a>
             </div>
@@ -192,7 +191,7 @@ function App() {
           >
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className="w-100" src={images} alt="Image" />
+                <img className="w-100" src={images} alt="team" />
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                   <div className="p-3" style={{ maxWidth: "900px" }}>
                     <h5 className="text-white text-uppercase mb-3 animated slideInDown">
@@ -204,14 +203,14 @@ function App() {
                       Medical
                     </h1>
                     <a
-                      href=""
+                      href="!#"
                       className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                       style={{ backgroundColor: "green" }}
                     >
                       Appointment
                     </a>
                     <a
-                      href
+                      href="!#"
                       className="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us
@@ -220,7 +219,7 @@ function App() {
                 </div>
               </div>
               <div className="carousel-item">
-                <img className="w-100" src={images2} alt="Image" />
+                <img className="w-100" src={images2} alt="etc" />
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                   <div className="p-3" style={{ maxWidth: "900px" }}>
                     <h5 className="text-white text-uppercase mb-3 animated slideInDown">
@@ -230,13 +229,13 @@ function App() {
                       SETTING UP APPOINTMENTS NOW EASY FOR APPLICANTS!
                     </h1>
                     <a
-                      href="#"
+                      href="!#"
                       className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                     >
                       Appointment
                     </a>
                     <a
-                      href
+                      href="!#"
                       className="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us
@@ -288,7 +287,7 @@ function App() {
                     <h6 className="text-white mb-0">Sunday</h6>
                     <p className="mb-0"> 8:00am - 5:00pm</p>
                   </div>
-                  <a className="btn btn-light" href="">
+                  <a className="btn btn-light" href="!#">
                     Appointment
                   </a>
                 </div>
@@ -367,16 +366,16 @@ function App() {
                   Immigration Professionals.
                 </h4>
                 <p className="mb-4">
-                  This user-friendly free service for immigrants’ schedules them
+                  This user-friendly free service for immigrants schedules them
                   with USCIS authorized Civil Surgeons for their immigration
                   medical exam and with authorized Immigration Lawyers for their
-                  immigration needs, right near their zip code. easyIME’s
-                  trained and motivated staff redefines the immigration
-                  industry’s standards through excellent support that meets all
-                  our client’s immediate needs. For Immigration Professionals,
-                  easyIME is a marketplace for Immigration Services. Simply get
-                  in touch with us to know how easyIME can network you and help
-                  you grow your practice.
+                  immigration needs, right near their zip code. easyIMEs trained
+                  and motivated staff redefines the immigration industrys
+                  standards through excellent support that meets all our clients
+                  immediate needs. For Immigration Professionals, easyIME is a
+                  marketplace for Immigration Services. Simply get in touch with
+                  us to know how easyIME can network you and help you grow your
+                  practice.
                 </p>
                 <div className="row g-3">
                   <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
@@ -415,6 +414,7 @@ function App() {
                     data-wow-delay="0.9s"
                     src={image4}
                     style={{ objectFit: "cover" }}
+                    alt="etc"
                   />
                 </div>
               </div>
@@ -557,7 +557,7 @@ function App() {
                     Meet Our Certified &amp; Experienced USCIS Doctors
                   </h1>
                   <a
-                    href="#"
+                    href="!#"
                     className="btn  py-3 px-5"
                     style={{ backgroundColor: "green", color: "white" }}
                   >
@@ -574,33 +574,33 @@ function App() {
                     <img
                       className="img-fluid rounded-top w-100"
                       src={team2}
-                      alt=""
+                      alt="etc"
                     />
                     <div className="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-twitter fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-facebook-f fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-linkedin-in fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-instagram fw-normal" />
@@ -625,33 +625,33 @@ function App() {
                     <img
                       className="img-fluid rounded-top w-100"
                       src={team2}
-                      alt=""
+                      alt="team2"
                     />
                     <div className="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-twitter fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-facebook-f fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-linkedin-in fw-normal" />
                       </a>
                       <a
                         className="btn btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-instagram fw-normal" />
@@ -676,33 +676,33 @@ function App() {
                     <img
                       className="img-fluid rounded-top w-100"
                       src={team3}
-                      alt=""
+                      alt="etc"
                     />
                     <div className="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-twitter fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-facebook-f fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-linkedin-in fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-instagram fw-normal" />
@@ -727,33 +727,33 @@ function App() {
                     <img
                       className="img-fluid rounded-top w-100"
                       src={team4}
-                      alt=""
+                      alt="etc"
                     />
                     <div className="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
                       <a
                         className="btn btn-primary btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-twitter fw-normal" />
                       </a>
                       <a
                         className="btn btn-primary btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-facebook-f fw-normal" />
                       </a>
                       <a
                         className="btn btn-primary btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-linkedin-in fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-instagram fw-normal" />
@@ -778,33 +778,33 @@ function App() {
                     <img
                       className="img-fluid rounded-top w-100"
                       src={team5}
-                      alt=""
+                      alt="etc"
                     />
                     <div className="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-twitter fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-facebook-f fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-linkedin-in fw-normal" />
                       </a>
                       <a
                         className="btn  btn-square m-1"
-                        href="#"
+                        href="!#"
                         style={{ backgroundColor: "green", color: "white" }}
                       >
                         <i className="fab fa-instagram fw-normal" />
@@ -842,7 +842,7 @@ function App() {
                     <img
                       className="img-fluid mx-auto rounded mb-4"
                       src="img/testimonial-1.jpg"
-                      alt=""
+                      alt="etc"
                     />
                     <p className="fs-5">
                       Dolores sed duo clita justo dolor et stet lorem kasd
@@ -856,7 +856,7 @@ function App() {
                     <img
                       className="img-fluid mx-auto rounded mb-4"
                       src="img/testimonial-2.jpg"
-                      alt=""
+                      alt="etc"
                     />
                     <p className="fs-5">
                       Dolores sed duo clita justo dolor et stet lorem kasd
@@ -914,23 +914,23 @@ function App() {
               <div className="col-lg-3 col-md-6">
                 <h3 className="text-white mb-4">Quick Links</h3>
                 <div className="d-flex flex-column justify-content-start">
-                  <a className="text-light mb-2" href="#">
+                  <a className="text-light mb-2" href="!#">
                     <i className="bi bi-arrow-right text-primary me-2" />
                     Home
                   </a>
-                  <a className="text-light mb-2" href="#">
+                  <a className="text-light mb-2" href="!#">
                     <i className="bi bi-arrow-right text-primary me-2" />
                     About Us
                   </a>
-                  <a className="text-light mb-2" href="#">
+                  <a className="text-light mb-2" href="!#">
                     <i className="bi bi-arrow-right text-primary me-2" />
                     Faq Green Card Medical Exam
                   </a>
-                  <a className="text-light mb-2" href="#">
+                  <a className="text-light mb-2" href="!#">
                     <i className="bi bi-arrow-right text-primary me-2" />
                     Latest Blog
                   </a>
-                  <a className="text-light" href="#">
+                  <a className="text-light" href="!#">
                     <i className="bi bi-arrow-right text-primary me-2" />
                     Contact Us
                   </a>
@@ -939,23 +939,23 @@ function App() {
               <div className="col-lg-3 col-md-6">
                 <h3 className="text-white mb-4">Popular Links</h3>
                 <div className="d-flex flex-column justify-content-start">
-                  <a className="text-light mb-2" href="#">
+                  <a className="text-light mb-2" href="!#">
                     <i className="bi bi-arrow-right text-primary me-2" />
                     Find A Civil Surgeon
                   </a>
-                  <a className="text-light mb-2" href="#">
+                  <a className="text-light mb-2" href="!#">
                     <i className="bi bi-arrow-right text-primary me-2" />
                     Find An Immigration
                   </a>
-                  <a className="text-light mb-2" href="#">
+                  <a className="text-light mb-2" href="!#">
                     <i className="bi bi-arrow-right text-primary me-2" />
                     Lawyer
                   </a>
-                  <a className="text-light mb-2" href="#">
+                  <a className="text-light mb-2" href="!#">
                     <i className="bi bi-arrow-right text-primary me-2" />
                     News & Event
                   </a>
-                  <a className="text-light" href="#">
+                  <a className="text-light" href="!#">
                     <i className="bi bi-arrow-right text-primary me-2" />
                     Contact Us
                   </a>
@@ -981,28 +981,28 @@ function App() {
                 <div className="d-flex">
                   <a
                     className="btn btn-lg btn-primary btn-lg-square rounded me-2"
-                    href="#"
+                    href="!#"
                     style={{ backgroundColor: "green", color: "white" }}
                   >
                     <i className="fab fa-twitter fw-normal" />
                   </a>
                   <a
                     className="btn btn-lg btn-primary btn-lg-square rounded me-2"
-                    href="#"
+                    href="!#"
                     style={{ backgroundColor: "green", color: "white" }}
                   >
                     <i className="fab fa-facebook-f fw-normal" />
                   </a>
                   <a
                     className="btn btn-lg btn-primary btn-lg-square rounded me-2"
-                    href="#"
+                    href="!#"
                     style={{ backgroundColor: "green", color: "white" }}
                   >
                     <i className="fab fa-linkedin-in fw-normal" />
                   </a>
                   <a
                     className="btn btn-lg btn-primary btn-lg-square rounded"
-                    href="#"
+                    href="!#"
                     style={{ backgroundColor: "green", color: "white" }}
                   >
                     <i className="fab fa-instagram fw-normal" />
@@ -1021,7 +1021,7 @@ function App() {
               <div className="col-md-6 text-center text-md-start">
                 <p className="mb-md-0">
                   ©{" "}
-                  <a className="text-white border-bottom" href="#">
+                  <a className="text-white border-bottom" href="!#">
                     easyime.com
                   </a>
                   . All Rights Reserved.
@@ -1033,7 +1033,7 @@ function App() {
         {/* Footer End */}
         {/* Back to Top */}
         <a
-          href="#"
+          href="!#"
           className="btn btn-lg btn-primary btn-lg-square rounded back-to-top"
         >
           <i className="bi bi-arrow-up" />
